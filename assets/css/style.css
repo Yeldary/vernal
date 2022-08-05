@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;600&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+} 
+body{
+    font-family: 'Lexend Deca', sans-serif !important;
+}
+.bg-black{
+    background-color: rgb(0, 0, 0);
+}
+
+#btn-scroll-up {
+    right: 40rem;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    background-color: transparent;
+    color: mintcream;
+
+}
+#btn-scroll-down {
+    right: 40rem;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    background-color: transparent;
+    color: aquamarine;
+
+}
+
+.fa-angle-up{
+    border: none;
+    outline: none;
+    font-size: 30px;
+    background-color: transparent;
+}
+.fa-angle-down{
+    font-size: 24px;
+}
+
+.text-vernal{
+    color: #8C32FF;
+}
+.fa-circle{
+    width: 40px;
+}
+
+.offcanvas{
+    width: 70% !important;
+}
+.dashboard-contact{
+    margin-left: -20rem !important;
+}
+
+.dashboard:hover{
+    color: aquamarine !important;
+}
+.dashboard-button{
+    margin-left: -0.7rem;
+}
+.dashboard-button:hover{
+    transform: rotateZ(90deg) !important;
+}
+.img-main{
+    width:450px;
+    margin-top: 3rem;
+    margin-right: -35rem;
+}
+.alert{
+    height: 100px;
+}
+.ws-alert{
+    margin-top: -3rem !important;
+}
+.branding{
+    text-decoration: none;
+}
+.branding:hover{
+    font-weight: bolder;
+}
+
+.vernal-light-text{
+    color: rgb(163, 102, 255);
+    
+}
+
+.portfolio-cards:hover{
+    color: white;
+}
+
+.arrow-portfolio{
+    transform: rotateX(160deg);
+    margin-left: -3rem;
+}
+
+
+.btn-portfolio{
+    background-color: #8C32FF;
+    width: 35px;
+    height: 35px;
+    border-radius:20px;
+}
+.btn-toolbar{
+    padding-top: 2rem;
+    margin-left: -8rem;
+}
+    
+/* services */
+.services-text:hover{
+    color: #8C32FF !important;
+    scale: 1.1;
+}
+
+.service-cirle-bg-small{
+    margin-right: -20rem;
+
+}
+
+.service-cirle-bg-big{
+    margin-left: -20rem;
+    margin-top: -2rem !important;
+}
+
+.services-test-container{
+    height: 55rem !important;
+    margin-top: 3rem;
+}
+
+/* Style the tab */
+.tab {
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    display: block;
+    color: black;
+    padding: 22px 16px;
+    width: auto;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+
+/* Services tab content */
+.tabcontent {
+    float: left;
+    padding: 70px 100px;
+    width: 50%;
+    height: 300px;
+    display: none;
+    text-align: center;
+}
+/* Clear floats after the tab */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* /services */
+
+/* creative process */
+.creative-process{
+    color: #65E0B1;
+}
+.img-creative-process{
+    margin-top: 13rem;
+}
+.card-margin{
+    margin-top: 15rem !important;
+    margin-bottom: 5rem;
+}
+
+.icon-creative-process{
+    width: 2rem;
+    height:2rem;
+    border: solid 2px #65E0B1;
+
+}
+.icon-creative-process:hover{
+    width: 3rem;
+    height:3rem;
+    border: solid 6px rgb(0, 0, 0);
+    background-color:rgb(195, 255, 232);
+    scale:1.2;
+
+}
+/* /creative process */
+
+
+
+#card{
+    transition: background-color 0.5s linear, height 4s;
+    width: 12rem;
+}
+#card:hover{
+    background-color: #8C32FF !important;
+    scale: 1.1;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+#text-area{
+    resize: none;
+    border: solid 2px black;
+    border-top: none;
+    border-right:none;
+    border-left: none;
+    border-radius: 0px;
+
+}
+
+.text-area:hover{
+    scale:1.1;
+    font-size: large;
+    border-color: #8C32FF !important;
+
+}
+
+.animated-banner{
+    height: 120px;
+    background-color: #8C32FF;
+}
+
+.footer{
+    color: white !important;
+}
+
+.footer:hover{
+    border-color: #8C32FF !important;
+}
+.icon:hover {
+    scale:1.5;
+}
+
+.phone{
+    transform: scaleX(-1);
+}
+.footer-outline-right{
+    border-right: 1px solid whitesmoke;
+    border-right-width: 2px;
+    height: 90%;
+}
+
+.btn-vernal:hover {
+    background-color: #8C32FF !important;
+    color: white !important;
+}
